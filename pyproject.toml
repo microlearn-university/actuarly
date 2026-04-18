@@ -1,0 +1,13 @@
+[project]
+name = "actuary-notebooks"
+version = "0.1.0"
+description = "P&C actuarial learning sim as Jupyter notebooks"
+requires-python = ">=3.12"
+dependencies = [
+    "jupyterlab>=4",
+    "numpy>=2",
+    "pandas>=2",
+    "matplotlib>=3.9",
+    "ipywidgets>=8",
+    "scipy>=1.13",
+]
